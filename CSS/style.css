@@ -23,17 +23,15 @@ body {
 }
 
 .input {
-    display: inline;
-    background-color: rgb(0, 0, 94);
+    /* display: inline;
+    height: 20px;
+    width: 30px; */
     border: 0.8vh black solid;
-    height: 2rem;
-    width: 30rem;
-}
+    background-color: rgb(0, 0, 94);
 
-.input::placeholder {
-    font-weight: bold;
-    font-size: 1rem;
-    text-align: top;
+    display: inline-block;
+             min-width: 50px; 
+             max-width: 200px
 }
 
 .input:focus {
